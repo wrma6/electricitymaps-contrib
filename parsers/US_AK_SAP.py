@@ -95,6 +95,6 @@ def fetch_consumption(
 
 if __name__ == "__main__":
     """Main method, never used by the Electricity Maps backend, but handy for testing."""
-
+    
     print(fetch_production(ZoneKey("US-AK-SAP")))
     print(fetch_consumption(ZoneKey("US-AK-SAP")))
